@@ -1,0 +1,78 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "4ef535bb-b2ef-469f-ba03-1897749abb5b": {
+        "id": "4ef535bb-b2ef-469f-ba03-1897749abb5b",
+        "parent": null,
+        "name": "Sigma25-1",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "f8a9586d-d80d-455f-8fc4-7d60fb3698e3"
+        ],
+        "isRemovable": false,
+        "filePath": "Sigma25-1"
+      },
+      "f8a9586d-d80d-455f-8fc4-7d60fb3698e3": {
+        "id": "f8a9586d-d80d-455f-8fc4-7d60fb3698e3",
+        "parent": "4ef535bb-b2ef-469f-ba03-1897749abb5b",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Sigma25-1/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "4ef535bb-b2ef-469f-ba03-1897749abb5b",
+    "openFiles": [
+      "f8a9586d-d80d-455f-8fc4-7d60fb3698e3"
+    ],
+    "currentFileId": "f8a9586d-d80d-455f-8fc4-7d60fb3698e3",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "Sigma25-1",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1564050691062
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "Sigma25-1",
+      "url": "https://github.com/sigmavcs/Sigma25-1",
+      "branches": []
+    }
+  }
+}
